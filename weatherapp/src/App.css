@@ -1,0 +1,50 @@
+.app{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 27%;
+    padding: 15px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 
+    0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 
+    0px 18px 36px -18px inset;
+    border-radius: 15px;
+  }
+  
+  .App{
+    margin-top: 3px;
+  }
+  .card{
+    /* border: 1px solid ; */
+    margin-top: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  }
+  
+  .input-field{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px
+  
+  }
+  .btn{
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+  .btn:hover{
+    background-color: rgba(50, 41, 41, 0.136);
+    
+  }
